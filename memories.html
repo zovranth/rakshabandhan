@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Our Memories · Our Little Bandhan</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="site-shell">
+    <header class="topbar">
+      <a class="brand" href="index.html"><span class="brand-mark">✦</span><span>our little <strong>bandhan</strong></span></a>
+      <button class="menu-toggle" aria-label="Open menu" aria-expanded="false">☰</button>
+      <nav class="nav-links" aria-label="Main navigation">
+        <a href="index.html">Home</a>
+        <a href="sisters.html">My sisters</a>
+        <a class="active" href="memories.html">Memories</a>
+        <a href="letter.html">A letter</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="page-intro memories-intro section-pad">
+        <p class="eyebrow"><span class="eyebrow-line"></span> The good stuff</p>
+        <h1>A scrapbook of<br><em>us being us.</em></h1>
+      </section>
+
+      <section class="memory-grid section-pad">
+        <article class="memory-tile tile-large">
+          <div class="memory-image memory-image-warm"><img class="memory-photo" src="assets/memory-01.jpg" alt="Favorite memory" onload="this.closest('.memory-image').classList.add('has-photo')" onerror="this.style.display='none';"><span>✦</span><small>add a favorite photo</small></div>
+          <div class="memory-caption"><span>the laughter</span><b>01</b></div>
+        </article>
+        <article class="memory-tile tile-tall">
+          <div class="memory-image memory-image-purple"><img class="memory-photo" src="assets/memory-02.jpg" alt="Sibling selfie" onload="this.closest('.memory-image').classList.add('has-photo')" onerror="this.style.display='none';"><span>♡</span><small>add a sibling selfie</small></div>
+          <div class="memory-caption"><span>the chaos</span><b>02</b></div>
+        </article>
+        <article class="memory-tile tile-small">
+          <div class="memory-image memory-image-pink"><img class="memory-photo" src="assets/memory-03.jpg" alt="A small family moment" onload="this.closest('.memory-image').classList.add('has-photo')" onerror="this.style.display='none';"><span>✧</span><small>add a tiny moment</small></div>
+          <div class="memory-caption"><span>the little things</span><b>03</b></div>
+        </article>
+        <article class="memory-tile tile-wide">
+          <div class="memory-image memory-image-blue"><img class="memory-photo" src="assets/memory-04.jpg" alt="Celebration memory" onload="this.closest('.memory-image').classList.add('has-photo')" onerror="this.style.display='none';"><span>∞</span><small>add a celebration photo</small></div>
+          <div class="memory-caption"><span>the forever team</span><b>04</b></div>
+        </article>
+      </section>
+
+      <section class="memory-footer section-pad">
+        <div>
+          <p class="eyebrow">Still counting</p>
+          <h2>There are a thousand<br>more <em>moments</em> to make.</h2>
+        </div>
+        <div class="polaroid">
+          <div class="polaroid-art">♡</div>
+          <p>same team,<br>since forever</p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer"><span>Khud banaya hai ;)</span><span>∞ &nbsp; forever yours</span></footer>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
